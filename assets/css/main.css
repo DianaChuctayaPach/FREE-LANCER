@@ -1,0 +1,255 @@
+/*
+ * Estilos de tu proyecto
+ */
+ *{
+    font-family: 'Montserrat', sans-serif;
+    outline: 1px solid red;
+   
+ }
+body{
+    padding: 0;
+    margin: 0;
+    
+    /* background-color: #18BC9C; */
+}
+nav{
+ 
+    /* width: 100%; */
+    top: 0px;
+    position: fixed;
+    z-index: 1000;
+
+}
+.menu{
+    padding: 35px;
+    background-color: #2C3E50;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+   
+}
+.flex-container{
+    /* display: flex; */
+    /* float: right; */
+}
+#boostrap{
+    color: white;
+    font-size: 35px;
+    font-weight: 900;
+    width: 350px;
+    height: 37px;
+   
+}
+.indice{
+        display: flex;
+        /* margin-top: -2%; */
+        position: relative;
+        /* flex-direction: row-reverse; */
+        /* margin-right: 10px; */
+        /* padding: 10%; */
+        float: right;
+        right: 10%;
+}
+[class*="link-"]{
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    /* display: flex; */
+    margin-left: 10px;
+    align-content: center;
+    height: 20px;
+}
+.link-1{
+  width: 100px;
+}
+.link-2{
+    width: 70px;
+}
+.link-3{
+    width: 80px;
+}
+.link:hover{
+    color: #18BC9C;
+}
+a{
+    text-decoration: none;
+   
+    
+}
+.flex-contenedor{
+    /* display: flex; */
+}
+#encabezado{
+    /* position: relative; */
+    margin-top: 110px;
+    width: 100%;
+    background: #18BC9C;
+}
+#conteiner{
+    display: flex;
+    width: 100%;
+    /* padding: 30px; */
+    justify-content: center;
+   
+
+}
+.text{
+    display: flex;
+    width: 80%;
+    padding: 5%;
+    /* height: 300px; */
+    flex-direction: column;
+    align-content: center;
+    margin-left: 5%;
+  
+}
+.subconteiner{
+    display: flex;
+    justify-content: center;
+}
+.name{
+    font-size: 70px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    justify-content: center;
+
+}
+.img-fluid{
+    padding: 20px;
+}
+.subname{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    color: white;
+    
+}
+
+[id*="star"]{
+    color: white;
+    float: left;
+    align-content: center;
+    
+}
+#star{
+    color: white;
+   align-content: center;
+   font-size: 30px;
+   display: inline;
+   margin-top: -15px;
+}
+#star-lineiz{
+    background-color: white;
+    height: 5px;
+    width: 15%;
+    display: flex;
+    margin-right: 20px;
+    flex-direction:column;
+}
+#star-linede{
+    background-color: white;
+    height: 5px;
+    width: 15%;
+    display: flex;
+    margin-left: 20px;
+    flex-direction:column;
+}
+/* PORTAFOLIO */
+
+#Portafolio{
+    width: 100%;
+    height: 400px;
+    background: white;
+    display: flex;
+    flex-direction: column;
+
+}
+#titlePortafolio{
+    
+}
+#h1Portafolio{
+    color: black;
+    /* display: flex; */
+    font-size: 40px;
+   font-weight: 800;
+}
+
+#star2{
+    color: #2C3E50;
+   align-content: center;
+   font-size: 30px;
+   display: inline;
+   margin-top: -15px;
+}
+#star-lineiz2{
+    background-color: #2C3E50;
+    height: 5px;
+    width: 10%;
+    display: flex;
+    margin-right: 20px;
+    flex-direction:column;
+}
+#star-linede2{
+    background-color:#2C3E50;
+    height: 5px;
+    width: 10%;
+    display: flex;
+    margin-left: 20px;
+    flex-direction:column;
+}
+/*=================================================
+                 galeria de imagenes
+=================================================== */
+.container{
+	width: 100%;
+
+
+}
+.row:before, .row:after{
+	content: " ";
+	display: table;  /*le toma encuenta a las columnas */
+	
+}
+.row:after{
+	clear: both;
+}
+.row{
+    display: flex;
+    justify-content: center;
+    /* background: purple; */
+    margin: 10px;
+}
+[class*="col-"]{
+    float: left;   
+    height: 300px;
+    /* margin:2%; */
+    width: 30%;
+    /* padding: 4px; */
+    display: flex;
+    display: inline-flex;
+}
+.img{
+    /* width: 33.3333%; */
+    width: 400px;
+    height: 300px;
+}
+.col-1{
+
+}
+.col-2{
+    
+}
+.col-3{
+    
+}
+.col-4{
+    
+}
+.col-5{
+    
+}
+.col-6{
+    
+}
