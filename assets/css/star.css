@@ -1,0 +1,60 @@
+
+
+[id*="star"]{
+    color: white;
+    float: left;
+    align-content: center;
+    
+}
+#star{
+    color: white;
+   align-content: center;
+   font-size: 30px;
+   display: inline;
+   margin-top: -15px;
+}
+#star-lineiz{
+    background-color: white;
+    height: 5px;
+    width: 15%;
+    display: flex;
+    margin-right: 20px;
+    flex-direction:column;
+}
+#star-linede{
+    background-color: white;
+    height: 5px;
+    width: 15%;
+    display: flex;
+    margin-left: 20px;
+    flex-direction:column;
+}
+
+#titlePortafolio{
+    
+}
+
+
+#star2{
+    color: #2C3E50;
+   align-content: center;
+   font-size: 30px;
+   display: inline;
+   margin-top: -15px;
+}
+#star-lineiz2{
+    background-color: #2C3E50;
+    height: 5px;
+    width: 10%;
+    display: flex;
+    margin-right: 20px;
+    flex-direction:column;
+}
+#star-linede2{
+    background-color:#2C3E50;
+    height: 5px;
+    width: 10%;
+    display: flex;
+    margin-left: 20px;
+    flex-direction:column;
+}
