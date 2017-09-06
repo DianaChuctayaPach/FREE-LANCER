@@ -21,7 +21,7 @@ nav{
    }
    #boostrap{
        color: white;
-       font-size: 3vh;
+       font-size: 4vw;
        font-weight: 900;
        
        /* height: 37px; */
@@ -30,7 +30,7 @@ nav{
    }
    .indice{
            display: flex;
-    
+           font-size: 3vw;
            float: right;
            /* right: 10%; */
    }
